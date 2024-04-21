@@ -149,7 +149,6 @@ const Navbar = async () => {
             </div>
             <div className="flex flex-row space-x-2">
                 <div className="hidden md:flex items-center gap-4">
-                    </Link>
                     <NavMenu folders={folders}></NavMenu>
                 </div>
                 <SearchInput className="hidden md:block w-full md:w-[260px] lg:w-[300px]" />
